@@ -1,12 +1,12 @@
-# ■ Insurance Premium Prediction using Regression Models
-## ■ Overview
+# Insurance Premium Prediction using Regression Models
+## Overview
 This project aims to predict **insurance premium amounts** using machine learning regression
 techniques.
 It leverages advanced models to accurately estimate premiums from various customer and policy
 attributes.
 The notebook explores multiple regression models, ultimately selecting **XGBoost Regressor** for its
 superior performance and robustness on large, skewed datasets.
-## ■ Project Highlights
+## Project Highlights
 - **Goal:** Predict the insurance premium amount.
 - **Dataset:** Kaggle Insurance Premium Dataset.
 - **Dataset Link:** [Insurance Premium Forecasting
@@ -14,7 +14,7 @@ Challenge](https://www.kaggle.com/competitions/insurance-premium-forecasting-cha
 - **Best Model:** XGBoost Regressor.
 - **Evaluation Metric:** Root Mean Squared Logarithmic Error (RMSLE).
 - **Final Score:** **1.05 RMSLE**.
-## ■■ Workflow
+## Workflow
 1. **Data Exploration & Cleaning**
 - Handled missing values and outliers.
 - Performed exploratory data analysis (EDA) to understand feature relationships.
@@ -28,14 +28,14 @@ Challenge](https://www.kaggle.com/competitions/insurance-premium-forecasting-cha
 4. **Evaluation**
 - Used RMSLE to measure relative prediction accuracy.
 - Ensured model generalization through validation.
-## ■ Technologies Used
+## Technologies Used
 - **Python**
 - **NumPy**, **Pandas** — Data handling
 - **Matplotlib**, **Seaborn** — Visualization
 - **Scikit-learn** — Preprocessing & metrics
 - **XGBoost** — Model training
 - **Kaggle Notebooks** — Development environment
-## ■ How to Run
+## How to Run
 1. Clone this repository:
 git clone https://github.com//insurance-premium-prediction.git
 cd insurance-premium-prediction
@@ -44,18 +44,18 @@ pip install -r requirements.txt
 3. Open the Jupyter notebook:
 jupyter notebook 60017230100-jagdishchoudhary.ipynb
 4. Run all cells to reproduce results.
-## ■ Results
+## Results
 | Model | Metric | Score |
 |--------|---------|--------|
 | XGBoost Regressor | RMSLE | **1.05** |
-## ■ Future Improvements
+## Future Improvements
 - Experiment with ensemble and stacking techniques.
 - Use deep learning-based regression (e.g., FusionNet).
 - Apply feature selection or SHAP for interpretability.
-## ■ Acknowledgments
+## Acknowledgments
 - **Dataset Source:** [Kaggle - Insurance Premium Forecasting
 Challenge](https://www.kaggle.com/competitions/insurance-premium-forecasting-challenge/overview)
 - Special thanks to Kaggle community for resources and inspiration.
-## ■ Author
+## Author
 **Jagdish Choudhary**
 Machine Learning & Data Science Enthusiast
